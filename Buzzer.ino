@@ -88,9 +88,8 @@
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
-int const TEMPO = 1200;
-
-int melody[] = {
+//Megalovania Buzzer Sounds
+int MegalovaniaMelody[] = {
   NOTE_D3, NOTE_D3, NOTE_D4, NOTE_A3, 0, 
   NOTE_GS3, NOTE_G3, NOTE_F3, NOTE_D3, NOTE_F3, NOTE_G3, NOTE_C3, NOTE_C3, NOTE_D4, NOTE_A3, 0, 
   NOTE_GS3, NOTE_G3, NOTE_F3, NOTE_D3, NOTE_F3, NOTE_G3, NOTE_B2, NOTE_B2, NOTE_D4, NOTE_A3, 0, 
@@ -114,16 +113,58 @@ int melody[] = {
   NOTE_F4, NOTE_D4, NOTE_F4, NOTE_G4, NOTE_GS4, NOTE_G4, NOTE_F4, NOTE_D4, NOTE_GS4, NOTE_G4, NOTE_F4, NOTE_D4, NOTE_F4, NOTE_F4, NOTE_F4, NOTE_GS4, NOTE_A4, NOTE_C5, NOTE_A4, NOTE_GS4, NOTE_G4, NOTE_F4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_C5, NOTE_CS5, NOTE_GS4, NOTE_GS4, NOTE_G4, NOTE_F4, NOTE_G4, NOTE_F3, NOTE_G3, NOTE_A3, NOTE_F4, NOTE_E4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_E4, NOTE_A4, NOTE_A4, NOTE_G4, NOTE_F4, NOTE_DS4, NOTE_CS4, NOTE_DS4, 
 };
 
-int noteDurations[] = {
+int MegalovaniaNoteDurations[] = {
   16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 16, 16, 8, 6, 32, 8, 8, 8, 16, 16, 16, 8, 16, 8, 8, 8, 8, 4, 16, 8, 16, 8, 8, 8, 16, 16, 16, 16, 16, 8, 8, 16, 8, 8, 8, 8, 8, 8, 8, 8, 16, 16, 16, 2, 8, 16, 8, 8, 8, 8, 4, 16, 8, 16, 8, 8, 8, 8, 8, 16, 8, 16, 8, 8, 8, 8, 8, 8, 8, 16, 8, 15, 8, 8, 2, 3, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 8, 2, 16, 8, 16, 8, 16, 16, 16, 16, 16, 16, 8, 8, 8, 8,  8, 8, 16, 16, 16, 2, 8, 8, 8, 8, 4, 4, 4, 4, 4, 4, 2, 8, 8, 8, 8, 2, 2, 3, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 8, 2, 16, 8, 16, 8, 16, 16, 16, 16, 16, 16, 8, 8, 8, 8,  8, 8, 16, 16, 16, 2, 8, 8, 8, 8, 4, 4, 4, 4, 4, 4, 2, 8, 8, 8, 8, 2, 1
 };
 
-//melody = 266 notes
+//USSR Anthem Buzzer Sounds
+int USSRAnthemMelody[] = {
+  NOTE_G4, NOTE_C5, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_E4, NOTE_E4, 
+  NOTE_A4, NOTE_G4, NOTE_F4, NOTE_G4, NOTE_C4, NOTE_C4, 
+  NOTE_D4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_D5, 
+  NOTE_E5, NOTE_D5, NOTE_C5, NOTE_D5, NOTE_B4, NOTE_G4, 
+  NOTE_C5, NOTE_B4, NOTE_A4, NOTE_B4, NOTE_E4, NOTE_E4, 
+  NOTE_A4, NOTE_G4, NOTE_F4, NOTE_G4, NOTE_C4, NOTE_C4, 
+  NOTE_C5, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_B4, NOTE_C5, NOTE_D5, 
+  NOTE_E5, NOTE_D5, NOTE_C5, NOTE_B4, NOTE_C5, NOTE_D5, NOTE_G4, NOTE_G4, NOTE_B4, NOTE_C5, NOTE_D5,
+  NOTE_C5, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_E4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
+  NOTE_C5, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_A4, NOTE_C5, NOTE_F5,
+  NOTE_F5, NOTE_E5, NOTE_D5, NOTE_C5, NOTE_D5, NOTE_E5, NOTE_C5, NOTE_C5,
+  NOTE_D5, NOTE_C5, NOTE_B4, NOTE_A4, NOTE_B4, NOTE_C5, NOTE_A4, NOTE_A4,
+  NOTE_C5, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_C4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5
+};
+
+int USSRAnthemNoteDurations[] = {
+  8, 4, 6, 16, 4, 8, 8, 
+  4, 6, 16, 4, 8, 8, 
+  4, 8, 8, 4, 8, 8, 4, 8, 8, 2,
+  4, 6, 16, 4, 8, 8, 
+  4, 6, 16, 4, 8, 8, 
+  4, 6, 16, 4, 6, 16, 
+  4, 6, 16, 8, 8, 8, 8, 
+  2, 8, 8, 8, 8, 3, 8, 8, 8, 8, 8,
+  2, 8, 8, 8, 8, 3, 8, 8, 8, 8, 8,
+  4, 6, 16, 4, 6, 16, 4, 8, 8, 2,
+  2, 8, 8, 8, 8, 3, 8, 2,
+  2, 8, 8, 8, 8, 3, 8, 2,
+  4, 6, 16, 4, 4, 2, 4, 4, 1
+};
+
 void setup() {
-  for (int thisNote = 0; thisNote < sizeof(melody)/sizeof(melody[0]); thisNote++) {
-    int noteDuration = TEMPO / noteDurations[thisNote];
-    tone(13, melody[thisNote], noteDuration);
+  for (int thisNote = 0; thisNote < sizeof(MegalovaniaMelody)/sizeof(MegalovaniaMelody[0]); thisNote++) {
+    int noteDuration = 1200 / MegalovaniaNoteDurations[thisNote];
+    tone(13, MegalovaniaMelody[thisNote], noteDuration);
     delay(noteDuration * 1.45);
+    noTone(13);
+  }
+
+  //5 seconds delay ofr another song to play
+  delay(5000);
+
+  for (int thisNote = 0; thisNote < sizeof(USSRAnthemMelody) / 2; thisNote++) {
+    int noteDuration = 2000 / USSRAnthemNoteDurations[thisNote];
+    tone(13, USSRAnthemMelody[thisNote], noteDuration);
+    delay(noteDuration * 1.30);
     noTone(13);
   }
 }
