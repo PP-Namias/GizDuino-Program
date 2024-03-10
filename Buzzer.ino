@@ -122,9 +122,9 @@ int noteDurations[] = {
 void setup() {
   for (int thisNote = 0; thisNote < sizeof(melody)/sizeof(melody[0]); thisNote++) {
     int noteDuration = TEMPO / noteDurations[thisNote];
-    tone(8, melody[thisNote], noteDuration);
+    tone(13, melody[thisNote], noteDuration);
     delay(noteDuration * 1.45);
-    noTone(8);
+    noTone(13);
   }
 }
 
