@@ -158,7 +158,7 @@ void setup() {
     noTone(13);
   }
 
-  //5 seconds delay ofr another song to play
+  //5 seconds delay for another song to play
   delay(5000);
 
   for (int thisNote = 0; thisNote < sizeof(USSRAnthemMelody) / 2; thisNote++) {
