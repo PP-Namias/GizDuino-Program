@@ -1,0 +1,24 @@
+8pcs - 560 ohms resistors  1/4w
+8pcs - RED 5mm LED
+1pc - 10K potentiometer
+1pc - 3 pins connector
+4pcs - 2pins connector
+8pcs - GREEN 5mm LED
+1pc - CLEAR 5mm LED
+1pc - 1N4002 DIODE
+3pcs - 10K ohms resistor 1/4w
+1pc - 2.2k ohms resistor
+1pc - LDR 2pins
+1pc - Dc motor
+20pcs - Connecting wires
+1pc - LM35 Temperature sensor
+2pcs - Button Switch
+1pc - relay 5V Ea2-4.5NU
+1pc - 2x16 LCD Display *Optional
+1pc - gizDuino + ATmega644P
+1pc - Solderless breadboard (ZY-60)
+1pc - SG-90 Servo motor
+1pc - transistor MPS2222A
+1pc - 72LS595 Shift Register IC
+1pc - 3pins connector
+1pc - +5v Buzzer
